@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D801AAC11B04637E0033CDE5 /* SineWaveRecorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D801AABF1B04637E0033CDE5 /* SineWaveRecorder.cpp */; };
+		D820107118F4D75500A75C29 /* MidiSmoother.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D820107018F4D75500A75C29 /* MidiSmoother.cpp */; };
+		D820107518F4D80300A75C29 /* VelocityConsumer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D820107318F4D80300A75C29 /* VelocityConsumer.cpp */; };
+		D8A3B8AD18F3AF510063EF44 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8A3B8AC18F3AF510063EF44 /* main.cpp */; };
+		D8A3B8B718F3AF9C0063EF44 /* MidiFirer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8A3B8B518F3AF9C0063EF44 /* MidiFirer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8A3B8A718F3AF510063EF44 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D801AABF1B04637E0033CDE5 /* SineWaveRecorder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SineWaveRecorder.cpp; path = Output/SineWaveRecorder.cpp; sourceTree = "<group>"; };
+		D801AAC01B04637E0033CDE5 /* SineWaveRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SineWaveRecorder.h; path = Output/SineWaveRecorder.h; sourceTree = "<group>"; };
+		D820106F18F4D60B00A75C29 /* MidiSmoother.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MidiSmoother.h; sourceTree = "<group>"; };
+		D820107018F4D75500A75C29 /* MidiSmoother.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiSmoother.cpp; sourceTree = "<group>"; };
+		D820107318F4D80300A75C29 /* VelocityConsumer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VelocityConsumer.cpp; path = Output/VelocityConsumer.cpp; sourceTree = "<group>"; };
+		D820107418F4D80300A75C29 /* VelocityConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VelocityConsumer.h; path = Output/VelocityConsumer.h; sourceTree = "<group>"; };
+		D8A3B8A918F3AF510063EF44 /* MidiSmoother */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MidiSmoother; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A3B8AC18F3AF510063EF44 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D8A3B8B518F3AF9C0063EF44 /* MidiFirer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MidiFirer.cpp; path = Input/MidiFirer.cpp; sourceTree = "<group>"; };
+		D8A3B8B618F3AF9C0063EF44 /* MidiFirer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidiFirer.h; path = Input/MidiFirer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8A3B8A618F3AF510063EF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D820106C18F4D58E00A75C29 /* Classes Not To Change */ = {
+			isa = PBXGroup;
+			children = (
+				D820107218F4D7C800A75C29 /* Output */,
+				D820106D18F4D5A200A75C29 /* Input */,
+				D8A3B8AC18F3AF510063EF44 /* main.cpp */,
+			);
+			name = "Classes Not To Change";
+			sourceTree = "<group>";
+		};
+		D820106D18F4D5A200A75C29 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				D8A3B8B518F3AF9C0063EF44 /* MidiFirer.cpp */,
+				D8A3B8B618F3AF9C0063EF44 /* MidiFirer.h */,
+			);
+			name = Input;
+			sourceTree = "<group>";
+		};
+		D820107218F4D7C800A75C29 /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				D801AABF1B04637E0033CDE5 /* SineWaveRecorder.cpp */,
+				D801AAC01B04637E0033CDE5 /* SineWaveRecorder.h */,
+				D820107318F4D80300A75C29 /* VelocityConsumer.cpp */,
+				D820107418F4D80300A75C29 /* VelocityConsumer.h */,
+			);
+			name = Output;
+			sourceTree = "<group>";
+		};
+		D8A3B8A018F3AF510063EF44 = {
+			isa = PBXGroup;
+			children = (
+				D8A3B8AB18F3AF510063EF44 /* MidiSmoother */,
+				D8A3B8AA18F3AF510063EF44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8A3B8AA18F3AF510063EF44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8A3B8A918F3AF510063EF44 /* MidiSmoother */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8A3B8AB18F3AF510063EF44 /* MidiSmoother */ = {
+			isa = PBXGroup;
+			children = (
+				D820106C18F4D58E00A75C29 /* Classes Not To Change */,
+				D820106F18F4D60B00A75C29 /* MidiSmoother.h */,
+				D820107018F4D75500A75C29 /* MidiSmoother.cpp */,
+			);
+			path = MidiSmoother;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8A3B8A818F3AF510063EF44 /* MidiSmoother */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A3B8B218F3AF510063EF44 /* Build configuration list for PBXNativeTarget "MidiSmoother" */;
+			buildPhases = (
+				D8A3B8A518F3AF510063EF44 /* Sources */,
+				D8A3B8A618F3AF510063EF44 /* Frameworks */,
+				D8A3B8A718F3AF510063EF44 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MidiSmoother;
+			productName = MidiSmoother;
+			productReference = D8A3B8A918F3AF510063EF44 /* MidiSmoother */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8A3B8A118F3AF510063EF44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nathan Holmberg";
+			};
+			buildConfigurationList = D8A3B8A418F3AF510063EF44 /* Build configuration list for PBXProject "MidiSmoother" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8A3B8A018F3AF510063EF44;
+			productRefGroup = D8A3B8AA18F3AF510063EF44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8A3B8A818F3AF510063EF44 /* MidiSmoother */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8A3B8A518F3AF510063EF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A3B8AD18F3AF510063EF44 /* main.cpp in Sources */,
+				D8A3B8B718F3AF9C0063EF44 /* MidiFirer.cpp in Sources */,
+				D820107118F4D75500A75C29 /* MidiSmoother.cpp in Sources */,
+				D801AAC11B04637E0033CDE5 /* SineWaveRecorder.cpp in Sources */,
+				D820107518F4D80300A75C29 /* VelocityConsumer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D8A3B8B018F3AF510063EF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D8A3B8B118F3AF510063EF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D8A3B8B318F3AF510063EF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8A3B8B418F3AF510063EF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8A3B8A418F3AF510063EF44 /* Build configuration list for PBXProject "MidiSmoother" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A3B8B018F3AF510063EF44 /* Debug */,
+				D8A3B8B118F3AF510063EF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A3B8B218F3AF510063EF44 /* Build configuration list for PBXNativeTarget "MidiSmoother" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A3B8B318F3AF510063EF44 /* Debug */,
+				D8A3B8B418F3AF510063EF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8A3B8A118F3AF510063EF44 /* Project object */;
+}

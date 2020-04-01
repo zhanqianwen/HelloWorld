@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\MidiSmoother\main.cpp" />
+    <ClCompile Include="..\..\MidiSmoother\MidiSmoother.cpp" />
+    <ClCompile Include="..\..\MidiSmoother\Output\VelocityConsumer.cpp">
+      <Filter>Classes to not change</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MidiSmoother\Input\MidiFirer.cpp">
+      <Filter>Classes to not change</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MidiSmoother\Output\SineWaveRecorder.cpp">
+      <Filter>Classes to not change</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\MidiSmoother\MidiSmoother.h" />
+    <ClInclude Include="..\..\MidiSmoother\Output\VelocityConsumer.h">
+      <Filter>Classes to not change</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MidiSmoother\Input\MidiFirer.h">
+      <Filter>Classes to not change</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MidiSmoother\Output\SineWaveRecorder.h">
+      <Filter>Classes to not change</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Classes to not change">
+      <UniqueIdentifier>{d8cf5ed3-a2ac-4e63-baa2-99a30ec36e0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
